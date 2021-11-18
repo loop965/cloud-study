@@ -1,0 +1,6 @@
+server:
+  port: 7777
+zuul:
+  routes:
+    auth:
+      url: http://127.0.0.1:6666
